@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout code from GitHub
-               git branch: 'main',url: 'https://github.com/Baraziza/FlaskTodo2'
+               git branch: 'main', credentialsId: 'adbf97de-20ac-4884-8212-24eb6c1094fe' ,url: 'https://github.com/Baraziza/FlaskTodo2'
             }
         }
 
