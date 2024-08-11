@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout code from GitHub
-                git credentialsId: 'c33153cb-2d7a-435e-a0f4-a31142f215e3', url: 'https://github.com/your-username/your-repository.git'
+                git credentialsId: 'c33153cb-2d7a-435e-a0f4-a31142f215e3', url: 'https://github.com/Baraziza/FlaskTodo2'
             }
         }
 
